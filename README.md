@@ -1,8 +1,5 @@
 # P2_OpenClassrooms
 
-#CV_Combettes_Victor
+#CV_Combettes_Victor en ligne pour projet 2 de la formation Développeur Web OpenClassrooms
 
-#Fichier html = CV_Combettes_Victor
-#Fichier css = styles.css
-#Fichier images = photo et icones style-list
-#Fichier fonts = style text fonts roboto
+#Fichier html; css; images et fonts
