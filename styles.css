@@ -1,4 +1,3 @@
-
 body
 {
 	text-align: justify;
@@ -20,6 +19,11 @@ body
 	justify-content: space-between;
 }
 
+.section_right
+{
+	padding: 50px;
+}
+
 .photo
 {
 	display: block;
@@ -37,6 +41,14 @@ body
 	color: #1E88E5;
 	background-color: #212121;
 }
+
+.section_right h2
+{
+	font-size: 1.3em;
+	border-bottom: 2px solid #1E88E5;
+	padding-bottom: 8px;
+}
+
 
 .list_contact li
 {
@@ -60,3 +72,124 @@ article p
 	justify-content: space-around;
 }
 
+h1
+{
+	font-size: 2.3em;
+
+}
+
+h1 span
+{
+	color: #1E88E5;
+}
+
+.titre
+{
+	position: relative;
+	bottom: 15px;
+}
+
+.titre p
+{
+	position: relative;
+	bottom: 20px;
+}
+
+.titre p span
+{
+	border-bottom: 1px solid #1E88E5;
+}
+
+.form_cont
+{
+	display: flex;
+}
+
+.text
+{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-left: 150px;
+}
+
+.list_sect li
+{
+	font-size: 0.8em;
+	list-style: none;
+}
+
+.list_sect li::before
+{
+	content: "\2022"; color: #1E88E5;
+	display: inline-block;
+	font-size: 30px;
+	margin-left: -1.5em;
+	padding-right: 1.1em;
+}
+
+.form li:nth-child(-n+2)
+{
+	padding-bottom: 75px;
+}
+
+h3
+{
+	position: relative;
+	top: 20px;
+	font-size: 1em;
+}
+
+.form span, .exp span
+{
+	font-size: 0.9em;
+	font-style: italic;
+	position: relative;
+	bottom: 6px;
+}
+
+.text p
+{
+	font-size: 0.8em;
+}
+
+.form h2, .exp h2, .comp h2
+{
+	position: relative;
+	top: 30px;
+	margin-bottom: 40px;
+}
+
+.pad_h2
+{
+	padding-left: 20px;
+}
+
+.exp li:nth-child(1)
+{
+	padding-bottom: 60px;
+}
+
+.comp ul
+{
+	list-style: none;
+	padding-top: 10px;
+	font-size: 0.8em;
+}
+
+.comp li:nth-child(1)
+{
+	padding-bottom: 30px;
+}
+
+.form_comp
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.section
+{
+	position: relative;
+	top: 35px;
+}
