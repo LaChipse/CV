@@ -1,0 +1,62 @@
+
+body
+{
+	text-align: justify;
+	font-family: 'robotolight';
+}
+
+.container
+{
+	display: flex;
+}
+
+.section_left
+{
+	width: 40%;
+	font-size: 0.8em;
+	background-color: #1E88E5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.photo
+{
+	display: block;
+	border: 3px solid #0D47A1;
+	border-radius: 100px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.section_left h2
+{
+	text-align: center;
+	font-size: 1.3em;
+	color: #1E88E5;
+	background-color: #212121;
+}
+
+.list_contact li
+{
+	list-style: none;
+	padding: 8px;
+}
+
+article p
+{
+	margin: 30px;
+}
+
+.info_moi
+{
+	flex: 2;
+}
+
+.form_hob
+{
+	display: flex;
+	justify-content: space-around;
+}
+
