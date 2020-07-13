@@ -25,7 +25,7 @@ body
 
 .section_left
 {
-	width: 600px;
+	width: 40%;
 	font-size: 0.8em;
 	background-color: #1E88E5;
 	display: flex;
@@ -84,6 +84,7 @@ article p
 {
 	display: flex;
 	justify-content: space-around;
+	padding-bottom: 10px;
 }
 
 h1
@@ -117,6 +118,7 @@ h1 span
 .bloc
 {
 	display: flex;
+	height: 150px;
 }
 
 .text
@@ -185,28 +187,22 @@ h3
 	padding-bottom: 60px;
 }
 
-.comp ul
-{
-	list-style: none;
-	padding-top: 10px;
-	font-size: 0.8em;
-}
-
-.comp li:nth-child(1)
-{
-	padding-bottom: 30px;
-}
-
 .form_comp
 {
 	display: flex;
 	justify-content: space-between;
 }
 
-.section
+.comp ul
 {
-	position: relative;
-	top: 35px;
+	list-style: none;
+	padding-top: 20px;
+	font-size: 0.8em;
+}
+
+.comp li:nth-child(1)
+{
+	padding-bottom: 30px;
 }
 
 .list_comp
@@ -217,11 +213,13 @@ h3
 .eng
 {
 	list-style-image: url(images/anglais.jpg);
+	padding-top: 8px;
 }
 
 .fr
 {
 	list-style-image: url(images/francais.jpg);
+	padding-top: 10px;
 }
 
 .css
