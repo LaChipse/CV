@@ -66,6 +66,7 @@ body
 
 .list_contact li
 {
+	word-break: break-word;
 	list-style: none;
 	padding: 8px;
 }
@@ -118,7 +119,7 @@ h1 span
 .bloc
 {
 	display: flex;
-	height: 150px;
+	justify-content: space-between;
 }
 
 .text
@@ -213,17 +214,15 @@ h3
 .eng
 {
 	list-style-image: url(images/anglais.jpg);
-	padding-top: 8px;
 }
 
 .fr
 {
 	list-style-image: url(images/francais.jpg);
-	padding-top: 10px;
 }
 
 .css
-{
+	{
 	list-style-image: url(images/css.jpg);
 }
 
@@ -240,4 +239,132 @@ h3
 .git
 {
 	list-style-image: url(images/git.jpg);
+}
+
+
+@media all and (max-device-width: 480px)
+{
+	.photo
+	{
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+
+	img
+	{
+		width: 80px;
+		height: 80px;
+	}
+
+	h2
+	{
+		font-size: 1em;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+
+	h3
+	{
+		font-size: 0.8em;
+	}
+
+	.list_contact
+	{
+		word-break: break-word;
+		position: relative;
+		right: 20px;
+	}
+
+	.section_right ul li br, sup
+	{
+		display: none;
+	}
+
+	.bloc
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: relative;
+		bottom: 20px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.exp .text
+	{
+		margin-left: 0px;
+		position: relative;
+		bottom: 105px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+	.form .text
+	{
+		margin-left: 0px;
+		position: relative;
+		bottom: 120px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+
+	.text span
+	{
+		display: visible;
+	}
+
+	article
+	{
+		display: none;
+	}
+
+	.form_hob
+	{
+		flex-wrap: wrap;
+		padding: 20px;
+	}
+
+	i
+	{
+		padding-bottom: 10px;
+	}
+
+	h1
+	{
+		font-size: 2em;
+	}
+
+	.form .bloc:nth-child(2)
+	{
+		bottom: 150px;
+	}
+
+	.bloc:nth-child(3)
+	{
+		bottom: 280px;
+	}	
+
+	.exp .bloc:nth-child(2)
+	{
+		bottom: 130px;
+	}
+
+	.contact
+	{
+		flex: 1;
+	}
+
+	.form .form_cont
+	{
+		height: 300px;
+	}
+
+	.exp .form_cont
+	{
+		height: 200px;
+	}
 }
