@@ -316,7 +316,7 @@ h3
 		height: 280px;
 	}
 
-	.profil, li br, sup
+	.profil, li br, .comp span
 	{
 		display: none;
 	}
